@@ -20,6 +20,7 @@ app.config['SECRET_KEY'] = 'very-secret-key'  # Vulnerability: Hardcoded secret
 app.config['UPLOAD_FOLDER'] = 'uploads'
 
 db = SQLAlchemy(app)
+API_KEY = "1234567890-super-secret-key"
 
 # Models
 # Add new model for course enrollment
